@@ -1,6 +1,7 @@
 import React from "react"
 import './App.css';
-import {AiFillTwitterSquare, AiFillFacebook} from "react-icons/ai"
+import { AiFillTwitterSquare } from "react-icons/ai"
+// import {AiFillFacebook} from "react-icons/ai"
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
     
     const handleClick = event => {
       event.preventDefault();
-        const color = [
+        /*const color = [
           "#2E3D51",
           "#3697DB",
           "#28AD62",
@@ -51,7 +52,7 @@ function App() {
           "#005c66",
           "#003d44",
           
-        ]
+        ]*/
 
       let randdata = Math.floor(Math.random() * quotes.length)
       // let randColordata = Math.floor(Math.random() * color.length)
